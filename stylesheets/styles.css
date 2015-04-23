@@ -7,34 +7,47 @@ body {
   font-weight:300;
 }
 
-h1, h2, h3, h4, h5, h6 {
+/* Site Title */
+h1 {
   color:#222;
   margin:0 0 20px;
+  line-height:1.1;
+  font-size:28px;
+}
+
+/* Article Title */
+h2 {
+  color:#393939;
+  margin:0 0 20px;
+  line-height:1.1;
+}
+
+/* Article Subtitle */
+h3 {
+  color:#494949;
+  margin:-12px 0 20px;
+  line-height:1.1;
+}
+
+/* Article Section */
+h4 {
+  color:#494949;
+  margin:0 0 20px;
+}
+
+h4 + p {
+  margin-top: -14px;
+}
+
+/* Unused */
+h5, h6 {
+  color:#ff69b4;
 }
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
 
-h1, h2, h3 {
-  line-height:1.1;
-}
-
-h1 {
-  font-size:28px;
-}
-
-h2 {
-  color:#393939;
-}
-
-h3, h4, h5, h6 {
-  color:#494949;
-}
-
-h4, h5, h6 {
-  margin-top: -12px;
-}
 
 a {
   color:#39c;
