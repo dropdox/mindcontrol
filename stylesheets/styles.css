@@ -82,6 +82,11 @@ blockquote {
   font-style:italic;
 }
 
+cite {
+  display: block;
+  margin-left: 12px;
+}
+
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   color:#333;
